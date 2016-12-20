@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'omniauth'
-gem 'omniauth-census', :path => "~/turing/4module/omniauth-census"
+gem 'omniauth-census', git: "https://github.com/bcgoss/omniauth-census"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
